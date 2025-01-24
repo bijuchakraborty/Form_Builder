@@ -1,0 +1,247 @@
+{
+  "forms": [
+    {
+      "name": "f1",
+      "fields": [
+        {
+          "type": "text",
+          "label": "name",
+          "placeholder": "enter name",
+          "regex": "",
+          "charLimit": "",
+          "id": "4ed64283-3a46-4ef4-8694-41ad67e13a46"
+        },
+        {
+          "type": "date",
+          "label": "dob",
+          "placeholder": "",
+          "regex": "",
+          "charLimit": null,
+          "id": "a3cb631a-02e3-43cd-b7ac-0487c8623bcb"
+        },
+        {
+          "type": "radio",
+          "label": "gen",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "name": "radio-group-dd3qjhunc",
+          "id": "2cda9cde-c320-415f-81ee-bfaec2f554cd"
+        }
+      ],
+      "id": "amax"
+    },
+    {
+      "name": "f2",
+      "fields": [
+        {
+          "type": "text",
+          "label": "ee",
+          "placeholder": "eeee",
+          "regex": "",
+          "charLimit": "5",
+          "id": "b9fde3b4-28b1-4148-87a3-5d4eb51abe89"
+        },
+        {
+          "type": "date",
+          "label": "e4e4",
+          "placeholder": "",
+          "regex": "",
+          "charLimit": null,
+          "id": "955e1f83-a721-4878-9792-d86a1cc8e29d"
+        }
+      ],
+      "id": "uqc0"
+    },
+    {
+      "name": "f3",
+      "fields": [
+        {
+          "type": "text",
+          "label": "Name",
+          "placeholder": "enter name",
+          "regex": "",
+          "charLimit": "",
+          "id": "18b8f0d6-aec6-4945-9275-6d5733f56535"
+        },
+        {
+          "type": "text",
+          "label": "phone",
+          "placeholder": "enter phone number...",
+          "regex": "",
+          "charLimit": "",
+          "id": "182222a1-606f-480c-9f12-e015fcc4f96c"
+        },
+        {
+          "type": "date",
+          "label": "date of birth",
+          "placeholder": "",
+          "regex": "",
+          "charLimit": null,
+          "id": "8939be64-ad09-4c24-b61f-160bf880b697"
+        },
+        {
+          "type": "radio",
+          "label": "gender",
+          "options": [
+            "male",
+            "female"
+          ],
+          "name": "radio-group-0e1ndcqaq",
+          "id": "364f19d6-8394-4879-ad3d-c59678055a39"
+        }
+      ],
+      "id": "jp8d"
+    },
+    {
+      "id": "viy5",
+      "name": "f7",
+      "fields": [
+        {
+          "type": "text",
+          "label": "",
+          "placeholder": "text",
+          "regex": "^[a-zA-Z]+$",
+          "charLimit": "6",
+          "id": "0a33d224-6ff6-460e-a463-a49ba370460f"
+        }
+      ]
+    },
+    {
+      "id": "seux",
+      "name": "form",
+      "fields": [
+        {
+          "type": "text",
+          "label": "enter name",
+          "placeholder": "text",
+          "regex": "",
+          "charLimit": "",
+          "id": "e428c5d9-2af9-4eaa-a308-4079066c2a5c"
+        },
+        {
+          "type": "date",
+          "label": "enter dob",
+          "placeholder": "",
+          "regex": "",
+          "charLimit": null,
+          "id": "e78c57b3-56e5-495f-97c4-47be1ad485dd"
+        },
+        {
+          "type": "radio",
+          "label": "select gender",
+          "options": [
+            "male",
+            "female",
+            "other"
+          ],
+          "name": "radio-group-t13yi8eud",
+          "id": "b1411681-2083-416e-bf64-86a288295310"
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": "4598",
+      "formId": "uqc0",
+      "response": {
+        "ee": "eee",
+        "e4e4": "2025-01-09"
+      }
+    },
+    {
+      "id": "cb2a",
+      "formId": "uqc0",
+      "response": {
+        "ee": "q1qqq",
+        "e4e4": "2025-01-08"
+      }
+    },
+    {
+      "id": "5e75",
+      "formId": "jp8d",
+      "response": {
+        "ffff": "ed3"
+      }
+    },
+    {
+      "id": "446a",
+      "formId": "jp8d",
+      "response": {
+        "ffff": "4r2"
+      }
+    },
+    {
+      "id": "40dc",
+      "formId": "jp8d",
+      "response": {
+        "ffff": "w2e"
+      }
+    },
+    {
+      "id": "8e7b",
+      "formId": "jp8d",
+      "response": {
+        "ffff": "jno",
+        "fgfgfg": "uho",
+        "hbikhb": "2025-01-14",
+        "klpm": "kmp["
+      }
+    },
+    {
+      "id": "f7d9",
+      "formId": "jp8d",
+      "response": {
+        "Name": "xedtgvf3r",
+        "phone": "tfgr34",
+        "date of birth": "2025-01-09",
+        "gender": "male"
+      }
+    },
+    {
+      "id": "25a2",
+      "formId": "viy5",
+      "response": {
+        "text": "hhhhhh"
+      }
+    },
+    {
+      "id": "5794",
+      "formId": "seux",
+      "response": {
+        "enter name": "biju",
+        "enter dob": "2002-02-08",
+        "select gender": "male"
+      }
+    },
+    {
+      "id": "781d",
+      "formId": "seux",
+      "response": {
+        "enter name": "ram",
+        "enter dob": "2025-01-08",
+        "select gender": "male"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "username": "u",
+      "password": "p"
+    },
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "password456"
+    }
+  ]
+}
