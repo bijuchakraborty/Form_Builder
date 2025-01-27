@@ -57,11 +57,19 @@ const FormBuilder = () => {
           options: [],
           name: `radio-group-${Math.random().toString(36).substr(2, 9)}`,
         }
-        : { type, label: "", placeholder: "", regex: "", charLimit: null };
+        : type === "text"
+          ? { type, label: "", placeholder: "", regex: "", charLimit: null }
+          : type === "date"
+            ? { type, label: "" }
+            : null;
 
-    append(newField);
-    setCurrentFieldIndex(fields.length);
-    setModalOpen(true);
+    if (newField) {
+      append(newField);
+      setCurrentFieldIndex(fields.length);
+      setModalOpen(true);
+    } else {
+      console.warn("Unsupported field type:", type);
+    }
   };
 
   const handleFieldConfig = (config) => {
@@ -276,7 +284,7 @@ const FormBuilder = () => {
           )}
         </div>
       </div>
-      
+
       {modalOpen && (
         <InputModal
           fieldType={fields[currentFieldIndex]?.type}

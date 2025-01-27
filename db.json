@@ -1,32 +1,21 @@
 {
   "forms": [
     {
-      "id": "40hd",
-      "name": "form1",
+      "id": "95vi",
+      "name": "form 1",
       "fields": [
         {
           "type": "text",
           "label": "Name",
-          "placeholder": "enter name",
+          "placeholder": "enter name..",
           "regex": "",
           "charLimit": "8",
-          "id": "2462d9dc-94d4-4379-bbeb-86f654117d7d"
-        },
-        {
-          "type": "text",
-          "label": "Phone No.",
-          "placeholder": "enter phone number...",
-          "regex": "",
-          "charLimit": "10",
-          "id": "ba31d9fe-0bf5-40a1-bd53-1d453024a2af"
+          "id": "b27e7fe5-e2cc-418e-af5a-7ccbad7ce748"
         },
         {
           "type": "date",
           "label": "Date of birth",
-          "placeholder": "",
-          "regex": "",
-          "charLimit": null,
-          "id": "2d4cb79f-2394-44eb-a943-feeec7e82f8a"
+          "id": "a6be181a-9b0a-49fe-9eb2-d40a8d46d1cd"
         },
         {
           "type": "radio",
@@ -36,91 +25,20 @@
             "female",
             "other"
           ],
-          "name": "radio-group-g3b7x2so9",
-          "id": "4d2e3834-13f6-4d56-b801-5a479ceff431"
-        }
-      ]
-    },
-    {
-      "id": "07bp",
-      "name": "form2",
-      "fields": [
-        {
-          "type": "text",
-          "label": "name",
-          "placeholder": "",
-          "regex": "",
-          "charLimit": "",
-          "id": "cb9f5475-148d-4873-a131-cbb24f05adee"
-        },
-        {
-          "type": "date",
-          "label": "",
-          "placeholder": "",
-          "regex": "",
-          "charLimit": null,
-          "id": "17f28fcd-8dec-469a-9a73-efdf3032a350"
-        },
-        {
-          "type": "radio",
-          "label": "occupation",
-          "options": [
-            "doctor",
-            "police"
-          ],
-          "name": "radio-group-uthwmut4v",
-          "id": "e6c78799-51bc-483d-b881-292527d3186d"
+          "name": "radio-group-cvke1q566",
+          "id": "afcc7335-1d99-4a24-94dc-8930599e76f8"
         }
       ]
     }
   ],
   "responses": [
     {
-      "id": "c93f",
-      "formId": "40hd",
+      "id": "6a74",
+      "formId": "95vi",
       "response": {
         "Name": "biju",
-        "Phone No": "7595929656",
-        "Date of birth": "2002-02-08",
+        "Date of birth": "2024-07-18",
         "Gender": "male"
-      }
-    },
-    {
-      "id": "c338",
-      "formId": "40hd",
-      "response": {
-        "Name": "ram",
-        "Phone No": "4578958595",
-        "Date of birth": "2025-01-01",
-        "Gender": "male"
-      }
-    },
-    {
-      "id": "f635",
-      "formId": "40hd",
-      "response": {
-        "Name": "rani",
-        "Phone No": "9874565456",
-        "Date of birth": "2025-01-05",
-        "Gender": "female"
-      }
-    },
-    {
-      "id": "a908",
-      "formId": "07bp",
-      "response": {
-        "name": "sam",
-        "Date": "2025-01-09",
-        "occupation": "police"
-      }
-    },
-    {
-      "id": "75f2",
-      "formId": "07bp",
-      "response": {
-        "name": "sambhu",
-        "Date": "2025-01-07",
-        "occupation": "doctor"
       }
     }
   ],

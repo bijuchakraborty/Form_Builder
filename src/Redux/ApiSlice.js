@@ -59,9 +59,9 @@ export const apiSlice = createApi({
 
 export const {
     useGetFormsQuery,
+    useGetFormByIdQuery,
     useCreateFormMutation,
     useUpdateFormMutation,
-    useGetFormByIdQuery,
     useGetResponsesQuery,
     useSubmitResponseMutation,
     useLoginMutation,
