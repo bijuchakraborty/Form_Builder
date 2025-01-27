@@ -20,6 +20,7 @@ const Login = () => {
       alert("Username and password are required!");
       return;
     }
+    console.log(data);
 
     try {
       const response = await login(data).unwrap();

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useForm, useFieldArray } from "react-hook-form";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import {
   useGetFormByIdQuery,
   useUpdateFormMutation,
@@ -89,6 +89,7 @@ const FormBuilder = () => {
       alert("Please provide a form name!");
       return;
     }
+    console.log(data)
     const formPayload = {
       id: formId || Math.random().toString(36).substr(2, 4),
       name: formName,

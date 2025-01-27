@@ -1,229 +1,126 @@
 {
   "forms": [
     {
-      "name": "f1",
-      "fields": [
-        {
-          "type": "text",
-          "label": "name",
-          "placeholder": "enter name",
-          "regex": "",
-          "charLimit": "",
-          "id": "4ed64283-3a46-4ef4-8694-41ad67e13a46"
-        },
-        {
-          "type": "date",
-          "label": "dob",
-          "placeholder": "",
-          "regex": "",
-          "charLimit": null,
-          "id": "a3cb631a-02e3-43cd-b7ac-0487c8623bcb"
-        },
-        {
-          "type": "radio",
-          "label": "gen",
-          "options": [
-            "a",
-            "b",
-            "c"
-          ],
-          "name": "radio-group-dd3qjhunc",
-          "id": "2cda9cde-c320-415f-81ee-bfaec2f554cd"
-        }
-      ],
-      "id": "amax"
-    },
-    {
-      "name": "f2",
-      "fields": [
-        {
-          "type": "text",
-          "label": "ee",
-          "placeholder": "eeee",
-          "regex": "",
-          "charLimit": "5",
-          "id": "b9fde3b4-28b1-4148-87a3-5d4eb51abe89"
-        },
-        {
-          "type": "date",
-          "label": "e4e4",
-          "placeholder": "",
-          "regex": "",
-          "charLimit": null,
-          "id": "955e1f83-a721-4878-9792-d86a1cc8e29d"
-        }
-      ],
-      "id": "uqc0"
-    },
-    {
-      "name": "f3",
+      "id": "40hd",
+      "name": "form1",
       "fields": [
         {
           "type": "text",
           "label": "Name",
           "placeholder": "enter name",
           "regex": "",
-          "charLimit": "",
-          "id": "18b8f0d6-aec6-4945-9275-6d5733f56535"
+          "charLimit": "8",
+          "id": "2462d9dc-94d4-4379-bbeb-86f654117d7d"
         },
         {
           "type": "text",
-          "label": "phone",
+          "label": "Phone No.",
           "placeholder": "enter phone number...",
           "regex": "",
-          "charLimit": "",
-          "id": "182222a1-606f-480c-9f12-e015fcc4f96c"
+          "charLimit": "10",
+          "id": "ba31d9fe-0bf5-40a1-bd53-1d453024a2af"
         },
         {
           "type": "date",
-          "label": "date of birth",
+          "label": "Date of birth",
           "placeholder": "",
           "regex": "",
           "charLimit": null,
-          "id": "8939be64-ad09-4c24-b61f-160bf880b697"
+          "id": "2d4cb79f-2394-44eb-a943-feeec7e82f8a"
         },
         {
           "type": "radio",
-          "label": "gender",
-          "options": [
-            "male",
-            "female"
-          ],
-          "name": "radio-group-0e1ndcqaq",
-          "id": "364f19d6-8394-4879-ad3d-c59678055a39"
-        }
-      ],
-      "id": "jp8d"
-    },
-    {
-      "id": "viy5",
-      "name": "f7",
-      "fields": [
-        {
-          "type": "text",
-          "label": "",
-          "placeholder": "text",
-          "regex": "^[a-zA-Z]+$",
-          "charLimit": "6",
-          "id": "0a33d224-6ff6-460e-a463-a49ba370460f"
-        }
-      ]
-    },
-    {
-      "id": "seux",
-      "name": "form",
-      "fields": [
-        {
-          "type": "text",
-          "label": "enter name",
-          "placeholder": "text",
-          "regex": "",
-          "charLimit": "",
-          "id": "e428c5d9-2af9-4eaa-a308-4079066c2a5c"
-        },
-        {
-          "type": "date",
-          "label": "enter dob",
-          "placeholder": "",
-          "regex": "",
-          "charLimit": null,
-          "id": "e78c57b3-56e5-495f-97c4-47be1ad485dd"
-        },
-        {
-          "type": "radio",
-          "label": "select gender",
+          "label": "Gender",
           "options": [
             "male",
             "female",
             "other"
           ],
-          "name": "radio-group-t13yi8eud",
-          "id": "b1411681-2083-416e-bf64-86a288295310"
+          "name": "radio-group-g3b7x2so9",
+          "id": "4d2e3834-13f6-4d56-b801-5a479ceff431"
+        }
+      ]
+    },
+    {
+      "id": "07bp",
+      "name": "form2",
+      "fields": [
+        {
+          "type": "text",
+          "label": "name",
+          "placeholder": "",
+          "regex": "",
+          "charLimit": "",
+          "id": "cb9f5475-148d-4873-a131-cbb24f05adee"
+        },
+        {
+          "type": "date",
+          "label": "",
+          "placeholder": "",
+          "regex": "",
+          "charLimit": null,
+          "id": "17f28fcd-8dec-469a-9a73-efdf3032a350"
+        },
+        {
+          "type": "radio",
+          "label": "occupation",
+          "options": [
+            "doctor",
+            "police"
+          ],
+          "name": "radio-group-uthwmut4v",
+          "id": "e6c78799-51bc-483d-b881-292527d3186d"
         }
       ]
     }
   ],
   "responses": [
     {
-      "id": "4598",
-      "formId": "uqc0",
+      "id": "c93f",
+      "formId": "40hd",
       "response": {
-        "ee": "eee",
-        "e4e4": "2025-01-09"
+        "Name": "biju",
+        "Phone No": "7595929656",
+        "Date of birth": "2002-02-08",
+        "Gender": "male"
       }
     },
     {
-      "id": "cb2a",
-      "formId": "uqc0",
+      "id": "c338",
+      "formId": "40hd",
       "response": {
-        "ee": "q1qqq",
-        "e4e4": "2025-01-08"
+        "Name": "ram",
+        "Phone No": "4578958595",
+        "Date of birth": "2025-01-01",
+        "Gender": "male"
       }
     },
     {
-      "id": "5e75",
-      "formId": "jp8d",
+      "id": "f635",
+      "formId": "40hd",
       "response": {
-        "ffff": "ed3"
+        "Name": "rani",
+        "Phone No": "9874565456",
+        "Date of birth": "2025-01-05",
+        "Gender": "female"
       }
     },
     {
-      "id": "446a",
-      "formId": "jp8d",
+      "id": "a908",
+      "formId": "07bp",
       "response": {
-        "ffff": "4r2"
+        "name": "sam",
+        "Date": "2025-01-09",
+        "occupation": "police"
       }
     },
     {
-      "id": "40dc",
-      "formId": "jp8d",
+      "id": "75f2",
+      "formId": "07bp",
       "response": {
-        "ffff": "w2e"
-      }
-    },
-    {
-      "id": "8e7b",
-      "formId": "jp8d",
-      "response": {
-        "ffff": "jno",
-        "fgfgfg": "uho",
-        "hbikhb": "2025-01-14",
-        "klpm": "kmp["
-      }
-    },
-    {
-      "id": "f7d9",
-      "formId": "jp8d",
-      "response": {
-        "Name": "xedtgvf3r",
-        "phone": "tfgr34",
-        "date of birth": "2025-01-09",
-        "gender": "male"
-      }
-    },
-    {
-      "id": "25a2",
-      "formId": "viy5",
-      "response": {
-        "text": "hhhhhh"
-      }
-    },
-    {
-      "id": "5794",
-      "formId": "seux",
-      "response": {
-        "enter name": "biju",
-        "enter dob": "2002-02-08",
-        "select gender": "male"
-      }
-    },
-    {
-      "id": "781d",
-      "formId": "seux",
-      "response": {
-        "enter name": "ram",
-        "enter dob": "2025-01-08",
-        "select gender": "male"
+        "name": "sambhu",
+        "Date": "2025-01-07",
+        "occupation": "doctor"
       }
     }
   ],

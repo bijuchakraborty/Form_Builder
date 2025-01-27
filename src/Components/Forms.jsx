@@ -10,6 +10,7 @@ const Forms = () => {
   const [submitResponse] = useSubmitResponseMutation();
 
   const onSubmit = async (data) => {
+    // console.log("submit form", data)
     await submitResponse({ formId: id, response: data });
     alert('Form submitted successfully!');
     reset();

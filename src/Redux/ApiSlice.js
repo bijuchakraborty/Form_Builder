@@ -12,7 +12,7 @@ export const apiSlice = createApi({
 
         getFormById: builder.query({
             query: (id) => `forms/${id}`,
-            providesTags: (result, error, id) => [{ type: "Forms", id }], // Tag individual forms
+            providesTags: (result, error, id) => [{ type: "Forms", id }],
         }),
 
         createForm: builder.mutation({
